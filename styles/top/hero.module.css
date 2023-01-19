@@ -1,0 +1,37 @@
+/*@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");*/
+.back { 
+  background: black;
+}
+.nav {
+  padding: 70px 100px 0 100px;
+}
+.nav > ul > li {
+  list-style: none;
+  display: inline;
+  padding-right: 60px;
+}
+.nav > ul > li > a {
+  /*font-family: "Sacramento", cursive;*/
+  background-color: black;
+  color: white;
+  animation: flicker 1.75s infinite alternate;
+}
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow:
+      0 0 10px white,
+      0 0 20px white,
+      0 0 30px #3BC740,
+      0 0 40px #3BC740,
+      0 0 50px #3BC740,
+      0 0 60px #3BC740,
+      0 0 70px #3BC740,
+      0 0 80px #3BC740,
+      0 0 90px #3BC740,
+      0 0 100px #3BC740;
+  }
+  20%, 24%, 55% {
+      text-shadow: none;
+  }
+}
+

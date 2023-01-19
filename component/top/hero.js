@@ -1,10 +1,10 @@
 import Link from 'next/link'
-import styles from 'styles/hero.module.css'
+import styles from 'styles/top/hero.module.css'
 
 const Hero = () => {
   return (
-    <div className={styles.box}>
-      <nav>
+    <div className={styles.back}>
+      <nav className={styles.nav}>
         <ul>
           <li>
             <Link legacyBehavior href='page1'><a>page1</a></Link>
