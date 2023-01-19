@@ -1,0 +1,46 @@
+.div {
+  margin: 0 auto;
+}
+.col {
+  margin: auto;
+  width: 600px;
+  list-style: none;
+}
+.col > li {
+  border: 1px solid #999;
+  float: left;
+  width: 130px;
+  margin: 0 2px;
+}
+.col > li > h2 {
+  font-size: 17px;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+.col > li > ul {
+  padding: 8px;
+}
+.col > li > ul > li {
+  text-align: left;
+  padding: 3px;
+  font-size: 14px;
+}
+.maker1, .maker2, .maker3, .maker4 {
+  list-style: none;
+}
+.h1, .h2, .h3, .h4 {
+  color: white;
+}
+.h1 {
+  background-color: #093CC4;
+}
+.h2 {
+  background-color: #FA2100;
+}
+.h3 {
+  background-color: #EAAC00;
+}
+.h4 {
+  background-color: #265B2E;
+}

@@ -1,0 +1,33 @@
+.box {
+  height: 500px;
+  background-color: black;
+}
+.main {
+  border: 3px solid #1CC0D9;
+  text-align: center;
+  width: 400px;
+  position: relative;
+  top: 40px; left: 40px;
+}
+.title, .h2, .a {
+  color: #1CC0D9;
+}
+.title {
+  border-bottom: 3px solid #1CC0D9;
+  padding: 10px;
+  font-size: 40px;
+}
+.nav {
+  padding: 10px;
+}
+.h2 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.nav > ul {
+  list-style: none;
+  padding: 0;
+}
+.nav > ul > li {
+  margin: 5px 0;
+}

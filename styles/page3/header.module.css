@@ -1,0 +1,11 @@
+.box {
+  margin: 0 auto;
+  width: 470px;
+  padding: 20px;
+}
+.header {
+  font-size: 40px;
+  color: #C30;
+  font-weight: 800;
+  text-align: center;
+}
