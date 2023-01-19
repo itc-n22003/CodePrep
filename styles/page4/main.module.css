@@ -3,19 +3,17 @@
   background-color: black;
 }
 .main {
-  border: 3px solid #1CC0D9;
+  border: 1px solid white;
   text-align: center;
   width: 400px;
   position: relative;
   top: 40px; left: 40px;
 }
-.title, .h2, .a {
-  color: #1CC0D9;
-}
 .title {
-  border-bottom: 3px solid #1CC0D9;
+  border-bottom: 1px solid white;
   padding: 10px;
   font-size: 40px;
+  font-weight: 10;
 }
 .nav {
   padding: 10px;
@@ -23,6 +21,7 @@
 .h2 {
   font-size: 20px;
   margin: 20px 0;
+  font-weight: 100;
 }
 .nav > ul {
   list-style: none;
@@ -30,4 +29,42 @@
 }
 .nav > ul > li {
   margin: 5px 0;
+}
+.title, .h2, .a {
+  color: white;
+  animation: pulsate 1.5s infinite alternate;
+  text-shadow:
+    0 0 5px white,
+    0 0 10px white,
+    0 0 15px #1CC0D9,
+    0 0 20px #1CC0D9,
+    0 0 25px #1CC0D9;
+}
+.main {
+  border-radius: 20px;
+  animation: pulsate 1.5s infinite alternate;
+  box-shadow:
+    0 0 5px white,
+    0 0 10px white,
+    0 0 15px #1CC0D9,
+    0 0 20px #1CC0D9,
+    0 0 25px #1CC0D9;
+}
+@keyframes pulsate {
+  100% {
+    text-shadow:
+      0 0 10px white,
+      0 0 20px white,
+      0 0 30px #1CC0D9,
+      0 0 40px #1CC0D9,
+      0 0 50px #1CC0D9;
+    }
+  0% {
+    text-shadow:
+      0 0 5px white,
+      0 0 10px white,
+      0 0 15px #1CC0D9,
+      0 0 25px #1CC0D9,
+      0 0 30px #1CC0D9;
+    }
 }
